@@ -1,76 +1,61 @@
-<h1 align="center">Olá! 👋 Eu sou o Bruno Bergamin</h1>
+# Bruno Bergamin - Portfolio no GitHub
 
-<p align="center">
-🎓 Estudante de <b>Análise e Desenvolvimento de Sistemas</b><br>
-💻 Foco em <b>Desenvolvimento Backend</b><br>
-📍 Brasil
-</p>
+Este repositorio funciona como uma apresentacao dos meus estudos, projetos e da minha evolucao pratica em desenvolvimento de software.
 
----
+## Sobre mim
 
-## 👨‍💻 Sobre mim
+Sou estudante de Analise e Desenvolvimento de Sistemas, com foco em evolucao para desenvolvimento backend. Tenho interesse especial em:
 
-Atualmente curso **Análise e Desenvolvimento de Sistemas** e atuo como **Analista de TI**, com experiência em suporte a sistemas, automação de processos, consultas em banco de dados (**SQL / PostgreSQL**) e criação de relatórios e dashboards no **Power BI**.
+- Java
+- SQL e PostgreSQL
+- logica de programacao
+- APIs REST
+- organizacao de projetos e boas praticas
 
-Paralelamente, venho direcionando meus estudos e minha evolução profissional para o **desenvolvimento de software**, com foco em **Java**. Estudo e aplico conceitos de **Programação Orientada a Objetos**, encapsulamento, construtores, sobrecarga, lógica de programação e boas práticas de código, sempre transformando teoria em prática por meio de exercícios e projetos.
+Tambem atuo em atividades ligadas a suporte, consultas em banco de dados, automacao e analise de informacoes.
 
-🎯 **Objetivo:** oportunidade de **estágio como desenvolvedor**, onde eu possa aprender com um time experiente e evoluir tecnicamente.
+## O que voce encontra nos meus repositorios
 
----
+- exercicios de Java do basico ao intermediario
+- estudos organizados de Python e SQL
+- projetos de console com POO
+- APIs REST com Spring Boot
+- interfaces front-end simples com HTML, CSS e JavaScript
 
-## 🚀 Tecnologias
+## Repositorios em destaque
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" />
-</p>
+- [`java-studies`](https://github.com/BrunoBergamin/java-studies): trilha extensa de estudos em Java
+- [`sql-studies`](https://github.com/BrunoBergamin/sql-studies): organizacao de exercicios, materiais e modelagem
+- [`python-studies`](https://github.com/BrunoBergamin/python-studies): fundamentos de Python com exemplos por assunto
+- [`library-system`](https://github.com/BrunoBergamin/library-system): sistema de biblioteca em Java console
+- [`finance-maganer`](https://github.com/BrunoBergamin/finance-maganer): sistema financeiro em Java com POO
+- [`car-spring`](https://github.com/BrunoBergamin/car-spring): API CRUD de carros com Spring Boot
 
-<p align="center">
-Java • SQL • PostgreSQL • Git • HTML • CSS • Power BI
-</p>
+## Tecnologias que venho estudando
 
----
+- Java
+- Spring Boot
+- SQL
+- PostgreSQL
+- Python
+- HTML
+- CSS
+- JavaScript
+- Git e GitHub
 
-## 📊 Estatísticas do GitHub
+## Objetivo deste portfolio
 
-<p align="center">
-  <img src="https://metrics.lecoq.io/BrunoBergamin?template=classic&languages=1&followup=1&achievements=1" />
-</p>
+Mostrar minha evolucao tecnica de forma clara, com projetos que evidenciam:
 
-> ✔ Gráfico estável  
-> ✔ Linguagens mais usadas  
-> ✔ Commits e atividade  
-> ✔ Mesmo estilo dos perfis do vídeo
+- pratica constante
+- organizacao de codigo
+- progressao de dificuldade
+- interesse em backend e APIs
 
----
+## Contato
 
-## 🐍 Atividade no GitHub
+- LinkedIn: [Bruno Alves Bergamin](https://www.linkedin.com/in/bruno-alves-bergamin-6b711a347)
 
-<p align="center">
-  <img src="https://github.com/BrunoBergamin/BrunoBergamin/blob/output/github-contribution-grid-snake.svg" />
-</p>
+## Observacao
 
----
-
-## 📂 Repositórios
-
-Aqui você encontrará:
-- Exercícios práticos em **Java**
-- Desafios de **Programação Orientada a Objetos**
-- Projetos de estudo focados em **backend**
-- Código organizado e versionado com Git
-
----
-
-## 📫 Contato
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/bruno-alves-bergamin-6b711a347" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-</p>
-
-⭐ Fique à vontade para explorar meus repositórios e acompanhar minha evolução como desenvolvedor!
+Se voce estiver visitando este repositorio como recrutador ou colega de estudo, recomendo comecar por `java-studies`, `car-spring`, `library-system` e `sql-studies`.
