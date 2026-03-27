@@ -31,6 +31,20 @@ Tambem atuo em atividades ligadas a suporte, consultas em banco de dados, automa
 - [`finance-maganer`](https://github.com/BrunoBergamin/finance-maganer): sistema financeiro em Java com POO
 - [`car-spring`](https://github.com/BrunoBergamin/car-spring): API CRUD de carros com Spring Boot
 
+## Como os projetos estao organizados
+
+- Repositorios de estudo:
+  - `java-studies`
+  - `python-studies`
+  - `sql-studies`
+- Projetos de pratica em Java puro:
+  - `calculadora-imc`
+  - `calculadora-simples`
+  - `finance-maganer`
+  - `library-system`
+- Projeto com Spring em evolucao:
+  - `car-spring`
+
 ## Tecnologias que venho estudando
 
 - Java
