@@ -93,9 +93,3 @@ Também desenvolvo **sites e redesigns para empresas** (imobiliárias, indústri
 - 💼 **LinkedIn:** [Bruno Alves Bergamin](https://www.linkedin.com/in/bruno-alves-bergamin-6b711a347/)
 - 🌐 **Projeto ao vivo:** [flabeauty.com.br](https://flabeauty.com.br)
 - 📍 Boituva / SP · aberto a projetos e oportunidades
-
-<br/>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BrunoBergamin&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=0A66C2&icon_color=E11D74" alt="Estatísticas do GitHub" height="160"/>
-</p>
