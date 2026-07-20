@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Desenvolvedor Full-Stack</b> — Next.js · TypeScript · React · Node · Java<br/>
-  Construo produtos web completos: e-commerce, sistemas de gestão e integrações de pagamento & ERP.<br/>
+  Construo produtos web completos: e-commerce, sistemas de gestão e integrações de pagamento, fiscais e logísticas.<br/>
   📍 Boituva · São Paulo · Brasil
 </p>
 
@@ -19,16 +19,29 @@
 
 ## 🚀 Projeto em destaque — FlaBeauty
 
-**E-commerce completo de moda feminina**, do catálogo ao pós-venda: programa de fidelidade **VIP**, painel administrativo e **estoque sincronizado entre site, Shopee e Mercado Livre**.
+**E-commerce completo de moda feminina, em produção** — do catálogo ao pós-venda, com automação **fiscal, logística e financeira**.
 
 ### 🔗 Site no ar: **[fla-beauty.vercel.app](https://fla-beauty.vercel.app)**
 
-**O que tem por trás:**
+**Base técnica:** Next.js 15 · React 19 · TypeScript · Tailwind v4 · Supabase (PostgreSQL · Auth · Storage · RLS) · Vercel
 
-- **Front-end:** Next.js 15 · TypeScript · Tailwind CSS
-- **Back-end & dados:** Supabase (PostgreSQL · Auth · Storage) com Row Level Security
-- **Pagamentos:** Mercado Pago  ·  **ERP / NFe:** integração Bling
-- **Segurança:** RLS em todas as tabelas, validação com Zod, proteção de rotas por middleware
+**Integrações & automações:**
+
+- 💳 **Pagamentos:** Mercado Pago (Pix, cartão e boleto) com webhooks assinados (HMAC + anti-replay)
+- 🧾 **Nota fiscal própria:** emissão de **NF-e (modelo 55) direto na SEFAZ** via Brasil NFe, com DANFE (PDF) + XML
+- 🚚 **Frete & etiquetas:** Melhor Envio (cotação em tempo real + geração de etiqueta)
+- 🏦 **Conciliação bancária:** Cora (mTLS + JWT)
+- ✉️ **Mensageria:** e-mails transacionais (Resend) e notificações no WhatsApp (Z-API)
+- 🤖 **Atendimento com IA:** assistente próprio usando a API da Claude (Anthropic)
+- 📈 **Growth & analytics:** Google Analytics 4, Meta Pixel e feed do Google Merchant
+- 🛡️ **Observabilidade & anti-abuso:** Sentry, Cloudflare Turnstile (CAPTCHA) e rate limit (Upstash)
+
+**Engenharia:**
+
+- Antifraude, **2FA no admin**, RLS em todas as tabelas e conformidade com a **LGPD** (exportar/apagar dados)
+- Padrões de confiabilidade: State Machine de pedidos, **Outbox Pattern**, idempotência no checkout e retry com backoff
+- **Milhares de testes automatizados** (Vitest + Playwright E2E)
+- **App mobile companion** em React Native (Expo)
 
 > 🛍️ Loja de verdade, rodando em produção. _(código-fonte privado)_
 
@@ -61,8 +74,14 @@ Também desenvolvo **sites e redesigns para empresas** — imobiliárias, indús
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
   <img src="https://img.shields.io/badge/Quarkus-4695EB?style=for-the-badge&logo=quarkus&logoColor=white" alt="Quarkus"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/Mercado_Pago-00B1EA?style=for-the-badge&logo=mercadopago&logoColor=white" alt="Mercado Pago"/>
+  <img src="https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white" alt="Sentry"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
 
