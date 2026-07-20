@@ -10,7 +10,7 @@
   <a href="https://www.linkedin.com/in/bruno-alves-bergamin-6b711a347/">
     <img src="https://img.shields.io/badge/LinkedIn-Bruno%20Alves%20Bergamin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://fla-beauty.vercel.app">
+  <a href="https://flabeauty.com.br">
     <img src="https://img.shields.io/badge/Projeto%20em%20destaque-FlaBeauty-E11D74?style=for-the-badge&logo=vercel&logoColor=white" alt="FlaBeauty ao vivo"/>
   </a>
 </p>
@@ -21,7 +21,7 @@
 
 **E-commerce completo de moda feminina, em produção** — do catálogo ao pós-venda, com automação **fiscal, logística e financeira**.
 
-### 🔗 Site no ar: **[fla-beauty.vercel.app](https://fla-beauty.vercel.app)**
+### 🔗 Site no ar: **[flabeauty.com.br](https://flabeauty.com.br)**
 
 **Base técnica:** Next.js 15 · React 19 · TypeScript · Tailwind v4 · Supabase (PostgreSQL · Auth · Storage · RLS) · Vercel
 
@@ -90,7 +90,7 @@ Também desenvolvo **sites e redesigns para empresas** — imobiliárias, indús
 ## 📫 Contato
 
 - 💼 **LinkedIn:** [Bruno Alves Bergamin](https://www.linkedin.com/in/bruno-alves-bergamin-6b711a347/)
-- 🌐 **Projeto ao vivo:** [fla-beauty.vercel.app](https://fla-beauty.vercel.app)
+- 🌐 **Projeto ao vivo:** [flabeauty.com.br](https://flabeauty.com.br)
 - 📍 Boituva / SP — aberto a projetos e oportunidades
 
 <br/>
