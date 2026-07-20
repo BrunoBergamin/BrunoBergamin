@@ -1,7 +1,7 @@
 <h1 align="center">Bruno Alves Bergamin</h1>
 
 <p align="center">
-  <b>Desenvolvedor Full-Stack</b> — Next.js · TypeScript · React · Node · Java<br/>
+  <b>Desenvolvedor Full-Stack:</b> Next.js · TypeScript · React · Node · Java<br/>
   Construo produtos web completos: e-commerce, sistemas de gestão e integrações de pagamento, fiscais e logísticas.<br/>
   📍 Boituva · São Paulo · Brasil
 </p>
@@ -17,9 +17,9 @@
 
 ---
 
-## 🚀 Projeto em destaque — FlaBeauty
+## 🚀 Projeto em destaque: FlaBeauty
 
-**E-commerce completo de moda feminina, em produção** — do catálogo ao pós-venda, com automação **fiscal, logística e financeira**.
+**E-commerce completo de moda feminina, em produção.** Do catálogo ao pós-venda, com automação **fiscal, logística e financeira**.
 
 ### 🔗 Site no ar: **[flabeauty.com.br](https://flabeauty.com.br)**
 
@@ -51,12 +51,12 @@
 
 | Projeto | O que é | Stack |
 |---|---|---|
-| **[conveniencia-vendas](https://github.com/BrunoBergamin/conveniencia-vendas)** | Sistema de vendas em **microsserviços** — banco por serviço, JWT, Kubernetes | Java · Spring Boot · Quarkus |
+| **[conveniencia-vendas](https://github.com/BrunoBergamin/conveniencia-vendas)** | Sistema de vendas em **microsserviços**: banco por serviço, JWT, Kubernetes | Java · Spring Boot · Quarkus |
 | **[camaragest](https://github.com/BrunoBergamin/camaragest)** | Plataforma de gestão para **câmaras municipais** (demo interativa) | HTML · CSS · JS |
 | **[ponto-cego](https://github.com/BrunoBergamin/ponto-cego)** | Diagnóstico interativo com **hero 3D em WebGL** | JavaScript · WebGL |
 | **[analise-digital-boituva](https://github.com/BrunoBergamin/analise-digital-boituva)** | **Auditorias digitais** independentes de sites e presença online | HTML · Análise técnica |
 
-Também desenvolvo **sites e redesigns para empresas** — imobiliárias, indústria e comércio local — com foco em SEO local e Google Meu Negócio.
+Também desenvolvo **sites e redesigns para empresas** (imobiliárias, indústria e comércio local), com foco em SEO local e Google Meu Negócio.
 
 ---
 
@@ -80,8 +80,9 @@ Também desenvolvo **sites e redesigns para empresas** — imobiliárias, indús
 </p>
 <p>
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
-  <img src="https://img.shields.io/badge/Mercado_Pago-00B1EA?style=for-the-badge&logo=mercadopago&logoColor=white" alt="Mercado Pago"/>
-  <img src="https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white" alt="Sentry"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
 
@@ -91,7 +92,7 @@ Também desenvolvo **sites e redesigns para empresas** — imobiliárias, indús
 
 - 💼 **LinkedIn:** [Bruno Alves Bergamin](https://www.linkedin.com/in/bruno-alves-bergamin-6b711a347/)
 - 🌐 **Projeto ao vivo:** [flabeauty.com.br](https://flabeauty.com.br)
-- 📍 Boituva / SP — aberto a projetos e oportunidades
+- 📍 Boituva / SP · aberto a projetos e oportunidades
 
 <br/>
 
