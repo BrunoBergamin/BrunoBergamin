@@ -52,6 +52,7 @@
 | Projeto | O que é | Stack |
 |---|---|---|
 | **[conveniencia-vendas](https://github.com/BrunoBergamin/conveniencia-vendas)** | Sistema de vendas em **microsserviços**: banco por serviço, JWT, Kubernetes | Java · Spring Boot · Quarkus |
+| **nfe-manager** 🔒 | App desktop que **organiza e classifica NF-e (XML)** de uma rede de postos: separa entrada/saída/SAT, extrai ZIPs e consulta notas por empresa e período | Python · lxml · Tkinter |
 | **[camaragest](https://github.com/BrunoBergamin/camaragest)** | Plataforma de gestão para **câmaras municipais** (demo interativa) | HTML · CSS · JS |
 | **[ponto-cego](https://github.com/BrunoBergamin/ponto-cego)** | Diagnóstico interativo com **hero 3D em WebGL** | JavaScript · WebGL |
 | **[analise-digital-boituva](https://github.com/BrunoBergamin/analise-digital-boituva)** | **Auditorias digitais** independentes de sites e presença online | HTML · Análise técnica |
