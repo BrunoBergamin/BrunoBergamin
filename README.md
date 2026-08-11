@@ -3,7 +3,7 @@
 <p align="center">
   <b>Desenvolvedor back-end:</b> Java · Spring Boot · PostgreSQL · Kafka<br/>
   Também construo produtos web completos: e-commerce, sistemas de gestão e integrações de pagamento, fiscais e logísticas.<br/>
-  📍 Boituva · São Paulo · Brasil — disponível para <b>Florianópolis</b> ou remoto
+  📍 Boituva · São Paulo · Brasil · disponível para <b>Florianópolis</b> ou remoto
 </p>
 
 <p align="center">
@@ -17,40 +17,45 @@
 
 ---
 
-## ☕ OrderFlow — sistema de pedidos em Java
+## ☕ OrderFlow, sistema de pedidos em Java
 
-Três serviços que formam **um sistema**, não três exercícios soltos. Trabalho com operação de
-e-commerce, e é daí que vêm os problemas que escolhi resolver aqui: pedido duplicado, estoque
-vendido duas vezes, repasse de maquininha que não bate.
+Três serviços que formam **um sistema**, não três exercícios soltos.
+
+Trabalho com operação de e-commerce. Os problemas que escolhi resolver aqui são os que eu já
+vi acontecer: pedido duplicado, estoque vendido duas vezes, repasse de maquininha que não bate.
 
 | Serviço | O que faz | O problema que resolve |
 |---|---|---|
 | **[orderflow](https://github.com/BrunoBergamin/orderflow)** | API de pedidos | Cliente clica duas vezes em comprar; duas pessoas disputam a última unidade; o pedido salva mas o evento não sai |
 | **[orderflow-fulfillment](https://github.com/BrunoBergamin/orderflow-fulfillment)** | Consumidor dos eventos | A mesma mensagem chega duas vezes; uma mensagem quebrada trava a fila inteira; o parceiro externo cai |
-| **[orderflow-reconciliation](https://github.com/BrunoBergamin/orderflow-reconciliation)** | Conciliação financeira em lote | O repasse do adquirente não bate com as vendas — inclusive taxa cobrada acima da contratada |
+| **[orderflow-reconciliation](https://github.com/BrunoBergamin/orderflow-reconciliation)** | Conciliação financeira em lote | O repasse do adquirente não bate com as vendas, inclusive taxa cobrada acima da contratada |
 
-**Como foi construído:** arquitetura hexagonal verificada por **ArchUnit** (se alguém importar
-JPA dentro da regra de negócio, o build quebra) · **179 testes** no CI com PostgreSQL, Redis e
-Kafka de verdade via Testcontainers, não banco em memória · Transactional Outbox, idempotência,
-lock otimista, DLQ com reprocessamento, circuit breaker e rate limiting · imagens publicadas no
-GHCR, então roda com um comando sem compilar nada.
+Como foi construído:
 
-Cada README explica **por que** cada decisão foi tomada — não só o que foi usado.
+- Arquitetura hexagonal verificada por **ArchUnit**. Se alguém importar JPA dentro da regra de
+  negócio, o build quebra.
+- **179 testes** no CI, com PostgreSQL, Redis e Kafka de verdade via Testcontainers. Nada de
+  banco em memória.
+- Transactional Outbox, idempotência, lock otimista, DLQ com reprocessamento, circuit breaker
+  e rate limiting.
+- Imagens publicadas no GHCR, então roda com um comando, sem compilar.
+
+Cada README explica **por que** cada decisão foi tomada, não só o que foi usado.
 
 ---
 
-## 🚀 FlaBeauty — e-commerce em produção
+## 🚀 FlaBeauty, e-commerce em produção
 
-**Loja de moda feminina no ar**, do catálogo ao pós-venda, com automação **fiscal, logística e
-financeira**. É onde os problemas acima deixaram de ser teoria.
+**Loja de moda feminina no ar**, do catálogo ao pós-venda, com automação fiscal, logística e
+financeira. É onde os problemas acima deixaram de ser teoria.
 
 ### 🔗 Site no ar: **[flabeauty.com.br](https://flabeauty.com.br)**
 
-**Base técnica:** Next.js 15 · React 19 · TypeScript · Tailwind v4 · Supabase (PostgreSQL · Auth
-· Storage · RLS) · Vercel
+**Base técnica:** Next.js 15 · React 19 · TypeScript · Tailwind v4 · Supabase (PostgreSQL ·
+Auth · Storage · RLS) · Vercel
 
-**Integrações & automações:** pagamentos com Mercado Pago (Pix, cartão e boleto) com webhooks
-assinados (HMAC + anti-replay), emissão fiscal, cálculo de frete e painel administrativo com
+**Integrações e automações:** pagamentos com Mercado Pago (Pix, cartão e boleto) com webhooks
+assinados (HMAC e anti-replay), emissão fiscal, cálculo de frete e painel administrativo com
 controle de estoque.
 
 ---
@@ -65,8 +70,8 @@ controle de estoque.
 | **[ponto-cego](https://github.com/BrunoBergamin/ponto-cego)** | Diagnóstico interativo com **hero 3D em WebGL** | JavaScript · WebGL |
 | **[analise-digital-boituva](https://github.com/BrunoBergamin/analise-digital-boituva)** | **Auditorias digitais** independentes de sites e presença online | HTML · Análise técnica |
 
-Também desenvolvo **sites e redesigns para empresas** (imobiliárias, indústria e comércio local),
-com foco em SEO local e Google Meu Negócio.
+Também desenvolvo **sites e redesigns para empresas** (imobiliárias, indústria e comércio
+local), com foco em SEO local e Google Meu Negócio.
 
 ---
 
@@ -101,4 +106,4 @@ com foco em SEO local e Google Meu Negócio.
 
 - 💼 **LinkedIn:** [Bruno Alves Bergamin](https://www.linkedin.com/in/bruno-alves-bergamin-6b711a347/)
 - 🌐 **Projeto ao vivo:** [flabeauty.com.br](https://flabeauty.com.br)
-- 📍 Boituva / SP · **procurando vaga como desenvolvedor back-end Java** — Florianópolis ou remoto
+- 📍 Boituva / SP · **procurando vaga como desenvolvedor back-end Java**, em Florianópolis ou remoto

@@ -1,0 +1,44 @@
+TEXTO PARA A SEÇÃO "PROJETOS" DO LINKEDIN
+
+Adicionar seção > Recomendado > Adicionar projetos
+
+
+NOME DO PROJETO
+---------------
+OrderFlow · Sistema de pedidos e conciliação em Java (3 serviços)
+
+
+DATA DE INÍCIO
+--------------
+Agosto de 2026, marcando "Trabalho atualmente neste projeto"
+
+
+DESCRIÇÃO
+---------
+Três serviços Java que formam um sistema, não três exercícios soltos.
+Código aberto: github.com/BrunoBergamin/orderflow
+
+Trabalho com operação de e-commerce. Construí este sistema em cima dos problemas que já vi acontecer de verdade, não só do caminho feliz.
+
+Os três serviços:
+• orderflow, a API de pedidos. Idempotência por Idempotency-Key, então o cliente clica duas vezes em comprar e não gera pedido duplicado. Reserva de estoque com lock otimista: duas pessoas disputando a última unidade não geram venda a descoberto, e um teste com 20 threads simultâneas prova isso. Transactional Outbox para o evento nunca se perder entre o banco e o Kafka.
+• orderflow-fulfillment, o consumidor dos eventos. Consumo idempotente, fila de mensagens mortas com reprocessamento pela API, circuit breaker no parceiro externo e cache Redis invalidado após o commit.
+• orderflow-reconciliation, a conciliação financeira em lote com Spring Batch. Cruza as vendas com o arquivo de repasse do adquirente e aponta divergência de valor, repasse duplicado e taxa cobrada acima da contratada.
+
+Engenharia aplicada:
+• Arquitetura hexagonal verificada por ArchUnit: importar JPA dentro da regra de negócio quebra o build
+• 179 testes no CI, com PostgreSQL, Redis e Kafka de verdade via Testcontainers, não banco em memória
+• Rastreamento distribuído ponta a ponta, com o trace atravessando a fronteira assíncrona do outbox
+• Tolerância a falha: retentativa com espera crescente, DLQ e reinício do lote no passo onde parou
+• Imagens publicadas no GitHub Container Registry, então roda com um comando, sem compilar
+
+Stack: Java 21, Spring Boot 3.5, Spring Batch, PostgreSQL 16, Kafka, Redis, Flyway, Docker, GitHub Actions.
+
+Cada README explica por que cada decisão foi tomada, não só o que foi usado.
+
+
+OBSERVAÇÃO
+----------
+O LinkedIn recusou o link do GitHub no campo "Adicionar conteúdo de mídia".
+Por isso o endereço está logo na segunda linha da descrição.
+Link, se quiser tentar a mídia de novo: https://github.com/BrunoBergamin/orderflow
