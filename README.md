@@ -3,7 +3,7 @@
 <p align="center">
   <b>Desenvolvedor back-end:</b> Java · Spring Boot · PostgreSQL · Kafka<br/>
   Também construo produtos web completos: e-commerce, sistemas de gestão e integrações de pagamento, fiscais e logísticas.<br/>
-  📍 Boituva · São Paulo · Brasil · disponível para <b>Florianópolis</b> ou remoto
+  📍 Boituva · São Paulo · Brasil · disponível para trabalhor
 </p>
 
 <p align="center">
