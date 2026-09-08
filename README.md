@@ -68,7 +68,7 @@ controle de estoque.
 | **gestao-fiscal-postos** 🔒 | Suíte desktop de **gestão fiscal e financeira** de uma rede de postos: consulta de NF-e, conferência de pagamentos (SGA x Sicoob/PagBank/Sipag/PIX), análise de descontos em PDF, clientes a prazo e estoque inteligente | Python · PySide6 · SQL · lxml |
 | **[camaragest](https://github.com/BrunoBergamin/camaragest)** | Plataforma de gestão para **câmaras municipais** (demo interativa) | HTML · CSS · JS |
 | **[ponto-cego](https://github.com/BrunoBergamin/ponto-cego)** | Diagnóstico interativo com **hero 3D em WebGL** | JavaScript · WebGL |
-| **[analise-digital-boituva](https://github.com/BrunoBergamin/analise-digital-boituva)** | **Auditorias digitais** independentes de sites e presença online | HTML · Análise técnica |
+| **analises-digitais** 🔒 | **Auditorias digitais** independentes de sites e presença online, reunidas num repositório só | HTML · Análise técnica |
 
 Também desenvolvo **sites e redesigns para empresas** (imobiliárias, indústria e comércio
 local), com foco em SEO local e Google Meu Negócio.
