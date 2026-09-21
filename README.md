@@ -8,11 +8,15 @@
 
 ## ⭐ Projetos em destaque
 
-<img src="assets/projeto-estoque.svg" width="100%" alt="Monitor de Estoque: lê o ERP da rede em modo somente leitura, às 8h gera a lista do dia e manda o link ao gerente pelo WhatsApp, o gerente conta às cegas no celular, o sistema confere com o ERP e audita o kardex a cada 5 minutos. Java 21, Spring Boot 4.1, PostgreSQL, Flyway, React e Vite."/>
+<img src="assets/projeto-estoque.svg" width="100%" alt="Monitor de Estoque: lê o ERP da rede em modo somente leitura, às 8h gera a lista do dia e manda o link ao gerente pelo WhatsApp, o gerente conta às cegas no celular, o sistema confere com o ERP e audita o kardex a cada 5 minutos. Java 21, Spring Boot 4.1, PostgreSQL, Flyway, React e Vite. Roda na AWS (EC2 em São Paulo) com Docker Compose."/>
 
 > **O sistema que eu mais uso.** Roda todo dia numa rede de postos: às 8h cada gerente recebe no
 > WhatsApp a lista do que contar, e o resto do dia ele fica de olho no ERP. É um sistema interno,
 > por isso o código é privado.
+>
+> **Na AWS desde setembro de 2026:** EC2 em São Paulo com Docker Compose (PostgreSQL, sistema e
+> WhatsApp em containers), IP fixo, orçamento com alerta e liga/desliga automático por horário
+> (EventBridge Scheduler). O deploy é um script: empacota sem segredos, sobe e confere.
 
 <br/>
 
@@ -31,7 +35,7 @@
 
 ## 🧰 Ferramentas
 
-<img src="assets/ferramentas.svg" width="100%" alt="Back-end: Java, Spring Boot, Spring AI, Hibernate, Quarkus, Maven. Dados: PostgreSQL, MySQL, Redis, Kafka, Flyway, H2. Qualidade e entrega: JUnit 5, Docker, Kubernetes, GitHub Actions, Swagger. No dia a dia: Claude Code, IntelliJ IDEA, VS Code, Git, GitHub. Web: React, TypeScript, Next.js, Vite, Supabase, Python."/>
+<img src="assets/ferramentas.svg" width="100%" alt="Back-end: Java, Spring Boot, Spring AI, Hibernate, Quarkus, Maven. Dados: PostgreSQL, MySQL, Redis, Kafka, Flyway, H2. Qualidade e entrega: JUnit 5, Docker, Kubernetes, GitHub Actions, Swagger, AWS. No dia a dia: Claude Code, IntelliJ IDEA, VS Code, Git, GitHub. Web: React, TypeScript, Next.js, Vite, Supabase, Python."/>
 
 Programo no **IntelliJ IDEA** e no **VS Code**, com o **Claude Code** como par de programação.
 
